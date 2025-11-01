@@ -1,0 +1,168 @@
+/* MDwiki Dark Theme */
+
+/* Global Styles */
+body, #md-all, #md-body, #md-content {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    border-bottom-color: #333;
+}
+
+p {
+    color: #e0e0e0;
+}
+
+a {
+    color: #bb86fc;
+}
+
+a:hover, a:focus {
+    color: #ffffff;
+}
+
+hr {
+    border-top-color: #333;
+}
+
+/* Navigation Bar */
+.navbar-default {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+
+.navbar-default .navbar-brand {
+    color: #e0e0e0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #e0e0e0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #333;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #03dac6; /* Accent color for active item */
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #333;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #333;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e0e0e0;
+}
+
+/* Side Menu / Page Menu */
+#md-page-menu {
+background-color: #1f1f1f;
+border: 1px solid #333;
+}
+
+#md-page-menu a {
+color: #bb86fc;
+}
+
+#md-page-menu a.active {
+color: #ffffff;
+background-color: #333;
+}
+
+.panel, .panel-default {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+
+.panel-heading, .panel-title {
+    color: #ffffff;
+}
+
+.list-group-item {
+    background-color: #1f1f1f;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+a.list-group-item {
+    color: #bb86fc;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+    background-color: #333;
+}
+
+/* Content Area */
+#md-content-container, #md-title-container {
+background-color: #121212;
+}
+
+/* Code Blocks */
+pre, code {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid #333;
+}
+
+/* Tables */
+.table-bordered, .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #333;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th {
+    color: #ffffff;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #2a2a2a;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+    background-color: #333;
+}
+
+
+/* Blockquotes */
+blockquote {
+    border-left-color: #333;
+    color: #a0a0a0;
+}
+
+/* Alerts from Gimmick */
+.alert {
+    color: #121212;
+}
+.alert-info {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+}
+.alert-success {
+    background-color: #03dac6;
+    border-color: #03dac6;
+}
+.alert-warning {
+    background-color: #cf6679;
+    border-color: #cf6679;
+}
